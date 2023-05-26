@@ -1,0 +1,64 @@
+controller-0: 01:47:48 INFO juju.worker.apicaller [b97292] "machine-0" successfully connected to "localhost:17070"
+controller-0: 01:47:48 INFO juju.worker.logforwarder config change - log forwarding not enabled
+controller-0: 01:47:48 INFO juju.worker.logger logger worker started
+machine-0: 01:56:55 INFO juju.cmd running jujud [2.8.1 0 16439b3d1c528b7a0e019a16c2122ccfcf6aa41f gc go1.14.4]
+machine-0: 01:56:55 DEBUG juju.cmd   args: []string{"/var/lib/juju/tools/machine-0/jujud", "machine", "--data-dir", "/var/lib/juju", "--machine-id", "0", "--debug"}
+machine-0: 01:56:55 DEBUG juju.utils setting GOMAXPROCS to 1
+machine-0: 01:56:55 DEBUG juju.agent read agent config, format "2.0"
+machine-0: 01:56:55 INFO juju.worker.upgradesteps upgrade steps for 2.8.1 have already been run.
+machine-0: 01:56:55 DEBUG juju.worker.dependency "agent" manifold worker started at 2021-01-14 01:56:55.411598925 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-steps-gate" manifold worker started at 2021-01-14 01:56:55.411812107 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "clock" manifold worker started at 2021-01-14 01:56:55.411909817 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-steps-flag" manifold worker started at 2021-01-14 01:56:55.411997175 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.apicaller connecting with old password
+machine-0: 01:56:55 DEBUG juju.worker.dependency "termination-signal-handler" manifold worker started at 2021-01-14 01:56:55.415806906 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "api-config-watcher" manifold worker started at 2021-01-14 01:56:55.417226943 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "state-config-watcher" manifold worker started at 2021-01-14 01:56:55.44078341 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-check-gate" manifold worker started at 2021-01-14 01:56:55.442999067 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.introspection introspection worker listening on "@jujud-machine-0"
+machine-0: 01:56:55 DEBUG juju.worker.introspection stats worker now serving
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-check-flag" manifold worker started at 2021-01-14 01:56:55.454237678 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.api successfully dialed "wss://10.5.0.25:17070/model/b9729220-8db0-4aa7-8bab-9a0e9a764e9a/api"
+machine-0: 01:56:55 INFO juju.api connection established to "wss://10.5.0.25:17070/model/b9729220-8db0-4aa7-8bab-9a0e9a764e9a/api"
+machine-0: 01:56:55 INFO juju.worker.apicaller [b97292] "machine-0" successfully connected to "10.5.0.25:17070"
+machine-0: 01:56:55 DEBUG juju.worker.apicaller changing password...
+machine-0: 01:56:55 INFO juju.worker.apicaller [b97292] password changed for "machine-0"
+machine-0: 01:56:55 DEBUG juju.api RPC connection died
+machine-0: 01:56:55 DEBUG juju.worker.dependency "api-caller" manifold worker stopped: restart immediately
+machine-0: 01:56:55 DEBUG juju.worker.apicaller connecting with current password
+machine-0: 01:56:55 DEBUG juju.api successfully dialed "wss://10.5.0.25:17070/model/b9729220-8db0-4aa7-8bab-9a0e9a764e9a/api"
+machine-0: 01:56:55 INFO juju.api connection established to "wss://10.5.0.25:17070/model/b9729220-8db0-4aa7-8bab-9a0e9a764e9a/api"
+machine-0: 01:56:55 INFO juju.worker.apicaller [b97292] "machine-0" successfully connected to "10.5.0.25:17070"
+machine-0: 01:56:55 DEBUG juju.worker.dependency "api-caller" manifold worker started at 2021-01-14 01:56:55.772797074 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrader" manifold worker started at 2021-01-14 01:56:55.785233105 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "migration-inactive-flag" manifold worker started at 2021-01-14 01:56:55.78720972 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-steps-runner" manifold worker started at 2021-01-14 01:56:55.810832323 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-steps-runner" manifold worker completed successfully
+machine-0: 01:56:55 INFO juju.worker.upgrader abort check blocked until version event received
+machine-0: 01:56:55 INFO juju.worker.upgrader unblocking abort check
+machine-0: 01:56:55 DEBUG juju.worker.dependency "valid-credential-flag" manifold worker started at 2021-01-14 01:56:55.823394207 +0000 UTC
+machine-0: 01:56:55 INFO juju.worker.upgrader desired agent binary version: 2.8.1
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-check-flag" manifold worker stopped: gate unlocked
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-check-flag" manifold worker started at 2021-01-14 01:56:55.841453054 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "migration-fortress" manifold worker started at 2021-01-14 01:56:55.852717747 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "migration-minion" manifold worker started at 2021-01-14 01:56:55.864389859 +0000 UTC
+machine-0: 01:56:55 INFO juju.worker.migrationminion migration phase is now: NONE
+machine-0: 01:56:55 DEBUG juju.worker.dependency "host-key-reporter" manifold worker started at 2021-01-14 01:56:55.879282067 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "machine-action-runner" manifold worker started at 2021-01-14 01:56:55.879356468 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.logger initial log config: "<root>=DEBUG"
+machine-0: 01:56:55 DEBUG juju.worker.dependency "logging-config-updater" manifold worker started at 2021-01-14 01:56:55.880843235 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.fanconfigurer Processing new fan config
+machine-0: 01:56:55 DEBUG juju.worker.dependency "reboot-executor" manifold worker started at 2021-01-14 01:56:55.882466727 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "storage-provisioner" manifold worker started at 2021-01-14 01:56:55.882765706 +0000 UTC
+machine-0: 01:56:55 INFO juju.worker.logger logger worker started
+machine-0: 01:56:55 DEBUG juju.worker.dependency "disk-manager" manifold worker started at 2021-01-14 01:56:55.89139786 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "unit-agent-deployer" manifold worker started at 2021-01-14 01:56:55.891565786 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "ssh-authkeys-updater" manifold worker started at 2021-01-14 01:56:55.891791214 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-series" manifold worker started at 2021-01-14 01:56:55.891978402 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "api-address-updater" manifold worker started at 2021-01-14 01:56:55.892332186 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "proxy-config-updater" manifold worker started at 2021-01-14 01:56:55.892409731 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "log-sender" manifold worker started at 2021-01-14 01:56:55.892441244 +0000 UTC
+machine-0: 01:56:55 INFO juju.worker.diskmanager block devices changed: []storage.BlockDevice{storage.BlockDevice{DeviceName:"loop0", DeviceLinks:[]string(nil), Label:"", UUID:"", HardwareId:"", WWN:"", BusAddress:"", Size:0x1e, FilesystemType:"squashfs", InUse:true, MountPoint:"/snap/snapd/9721", SerialId:""}, storage.BlockDevice{DeviceName:"loop1", DeviceLinks:[]string(nil), Label:"", UUID:"", HardwareId:"", WWN:"", BusAddress:"", Size:0x37, FilesystemType:"squashfs", InUse:true, MountPoint:"/snap/core18/1932", SerialId:""}, storage.BlockDevice{DeviceName:"loop2", DeviceLinks:[]string(nil), Label:"", UUID:"", HardwareId:"", WWN:"", BusAddress:"", Size:0x43, FilesystemType:"squashfs", InUse:true, MountPoint:"/snap/lxd/18150", SerialId:""}, storage.BlockDevice{DeviceName:"vda", DeviceLinks:[]string{"/dev/disk/by-path/pci-0000:00:04.0", "/dev/disk/by-path/virtio-pci-0000:00:04.0"}, Label:"", UUID:"", HardwareId:"", WWN:"", BusAddress:"", Size:0x5000, FilesystemType:"", InUse:true, MountPoint:"", SerialId:""}, storage.BlockDevice{DeviceName:"vda1", DeviceLinks:[]string{"/dev/disk/by-label/cloudimg-rootfs", "/dev/disk/by-partuuid/3643e3c9-ed0e-4277-a75b-573487957995", "/dev/disk/by-path/pci-0000:00:04.0-part1", "/dev/disk/by-path/virtio-pci-0000:00:04.0-part1", "/dev/disk/by-uuid/ae2b105a-1ab6-4a8a-928b-3f79f1c8df26"}, Label:"cloudimg-rootfs", UUID:"ae2b105a-1ab6-4a8a-928b-3f79f1c8df26", HardwareId:"", WWN:"", BusAddress:"", Size:0x4f90, FilesystemType:"ext4", InUse:true, MountPoint:"/", SerialId:""}, storage.BlockDevice{DeviceName:"vda14", DeviceLinks:[]string{"/dev/disk/by-partuuid/6f7cb54f-4e7a-4a78-8d10-14e0b830ec05", "/dev/disk/by-path/pci-0000:00:04.0-part14", "/dev/disk/by-path/virtio-pci-0000:00:04.0-part14"}, Label:"", UUID:"", HardwareId:"", WWN:"", BusAddress:"", Size:0x4, FilesystemType:"", InUse:false, MountPoint:"", SerialId:""}, storage.BlockDevice{DeviceName:"vda15", DeviceLinks:[]string{"/dev/disk/by-label/UEFI", "/dev/disk/by-partuuid/1bdfe570-d228-4fec-ad8c-8227e6954210", "/dev/disk/by-path/pci-0000:00:04.0-part15", "/dev/disk/by-path/virtio-pci-0000:00:04.0-part15", "/dev/disk/by-uuid/52E9-0E28"}, Label:"UEFI", UUID:"52E9-0E28", HardwareId:"", WWN:"", BusAddress:"", Size:0x6a, FilesystemType:"vfat", InUse:true, MountPoint:"/boot/efi", SerialId:""}, storage.BlockDevice{DeviceName:"vdb", DeviceLinks:[]string{"/dev/disk/by-label/ephemeral0", "/dev/disk/by-path/pci-0000:00:05.0", "/dev/disk/by-path/virtio-pci-0000:00:05.0", "/dev/disk/by-uuid/d0bd61b3-09fe-416d-b67e-347d63ae5880"}, Label:"ephemeral0", UUID:"d0bd61b3-09fe-416d-b67e-347d63ae5880", HardwareId:"", WWN:"", BusAddress:"", Size:0xa000, FilesystemType:"ext4", InUse:true, MountPoint:"/mnt", SerialId:""}}
+machine-0: 01:56:56 DEBUG juju.service discovered init system "systemd" from series "focal"
+machine-0: 01:56:56 DEBUG juju.worker.dependency "agent-config-updater" manifold worker stopped: resource permanently unavailable
+machine-0: 01:56:56 DEBUG juju.container.kvm kvm-ok output:
